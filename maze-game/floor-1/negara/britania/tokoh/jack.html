@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jack The Ripper</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/jack.style.css" />
+  </head>
+  <body class="jack-page">
+    <!-- teka teki jack the ripper -->
+    <div class="jack-main">
+      <h1 class="jack-title">Teka-Teki Jack The Ripper</h1>
+      <p class="jack-clue">
+        Surat yang ditulis Jack The Ripper ke polisi London pada tahun 1888
+      </p>
+      <form class="chest-form" autocomplete="off">
+        <input type="text" name="answer" class="chest-form" />
+        <button type="submit" class="chest-form">Submit</button>
+      </form>
+      <button onclick="return window.location.href='../'" class="jack-back">
+        Kembali
+      </button>
+    </div>
+
+    <script>
+      const answer = "from hell";
+      const form = document.querySelector("form");
+      const input = document.querySelector("input");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        if (input.value.toLowerCase() === answer) {
+          window.location.href = "Y2F0Y2g.html";
+        } else {
+          alert("Jawabanmu salah!");
+        }
+      });
+    </script>
+  </body>
+</html>

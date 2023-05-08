@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <title>Treasure Chest</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body class="chest-page">
+    <div class="chest-main">
+      <h1 class="chest-title">
+        Buka kunci ini dengan mengisi jawaban yang benar
+      </h1>
+
+      <p class="chest-paragraph">
+        Aku datang di pagi hari, di saat kau masih tidur lelap, Aku adalah
+        sandaranmu di siang hari yang panjang, Aku mengalir tanpa henti, tapi
+        tak pernah bergerak dari tempatnya, Dan kini, aku adalah kunci untuk
+        membuka peti harta karunmu.
+      </p>
+
+      <form class="chest-form" autocomplete="off">
+        <input type="text" name="answer" class="chest-form" />
+        <button type="submit" class="chest-form">Submit</button>
+      </form>
+    </div>
+
+    <script>
+      const answer = "waktu";
+      const form = document.querySelector("form");
+      const input = document.querySelector("input");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        if (input.value.toLowerCase() === answer) {
+          window.location.href = "../kunci.html";
+        } else {
+          alert("Jawabanmu salah!");
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Congratulation</title>
+  </head>
+  <body>
+    <!-- create input when submit and value is correct do another step -->
+    <form class="chest-form" autocomplete="off">
+      <input type="text" name="answer" class="chest-form" />
+      <button type="submit" class="chest-form">Submit</button>
+    </form>
+    <br />
+
+    <script>
+      const answer = "catch me if you can";
+      const form = document.querySelector("form");
+      const input = document.querySelector("input");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        if (input.value.toLowerCase() === answer) {
+          window.location.href = "finsihed.html";
+        } else {
+          alert("Jawabanmu salah!");
+        }
+      });
+    </script>
+
+    <!-- <script>
+      // check localStorage for the key "finished", if value not true, redirect to index.html
+      var _0x104f0f = _0x3760;
+      (function (_0x275a3d, _0x5f1de5) {
+        var _0x10f336 = _0x3760,
+          _0x3361cc = _0x275a3d();
+        while (!![]) {
+          try {
+            var _0x699839 =
+              (parseInt(_0x10f336(0xf2)) / 0x1) *
+                (-parseInt(_0x10f336(0xf9)) / 0x2) +
+              parseInt(_0x10f336(0xf0)) / 0x3 +
+              parseInt(_0x10f336(0xfb)) / 0x4 +
+              (-parseInt(_0x10f336(0xee)) / 0x5) *
+                (parseInt(_0x10f336(0xf8)) / 0x6) +
+              parseInt(_0x10f336(0xf7)) / 0x7 +
+              (parseInt(_0x10f336(0xfa)) / 0x8) *
+                (parseInt(_0x10f336(0xef)) / 0x9) +
+              -parseInt(_0x10f336(0xf5)) / 0xa;
+            if (_0x699839 === _0x5f1de5) break;
+            else _0x3361cc["push"](_0x3361cc["shift"]());
+          } catch (_0x2b5e3f) {
+            _0x3361cc["push"](_0x3361cc["shift"]());
+          }
+        }
+      })(_0x44ec, 0x90f2d);
+      function _0x3760(_0x3c9ac3, _0x4268f3) {
+        var _0x44ec89 = _0x44ec();
+        return (
+          (_0x3760 = function (_0x3760b3, _0x396f74) {
+            _0x3760b3 = _0x3760b3 - 0xed;
+            var _0x7dcf11 = _0x44ec89[_0x3760b3];
+            return _0x7dcf11;
+          }),
+          _0x3760(_0x3c9ac3, _0x4268f3)
+        );
+      }
+      function checkFinished() {
+        var _0x1c2e84 = _0x3760;
+        localStorage[_0x1c2e84(0xf6)](_0x1c2e84(0xf1)) !== "true"
+          ? (window["location"][_0x1c2e84(0xf3)] = "index.html")
+          : alert(_0x1c2e84(0xed));
+      }
+      function _0x44ec() {
+        var _0x2c615e = [
+          "8QFjEXB",
+          "3942536zCivmM",
+          "Ini,\x20adalah\x20langkah\x20terakhir\x20untuk\x20menyelesaikan\x20game",
+          "1227280wxUOfB",
+          "5492817HRpnGF",
+          "3093357KItUlo",
+          "finished",
+          "2lUKELL",
+          "href",
+          "onload",
+          "20509430bcwJRt",
+          "getItem",
+          "4454842WjnLWF",
+          "6sGnuXc",
+          "373364FWUNHA",
+        ];
+        _0x44ec = function () {
+          return _0x2c615e;
+        };
+        return _0x44ec();
+      }
+      window[_0x104f0f(0xf4)] = checkFinished;
+      // call checkFinished() when the page is loaded
+    </script> -->
+  </body>
+</html>

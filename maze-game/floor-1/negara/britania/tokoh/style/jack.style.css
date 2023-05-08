@@ -1,0 +1,97 @@
+.jack-page {
+  min-height: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(/assets/image/tokoh-jack.jpg) rgba(0, 0, 0, 0.584);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #ffff;
+}
+
+.jack-main {
+  /* background-color: #ffff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.jack-title {
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jack-content {
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jack-clue {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  width: 80px;
+  height: 2rem;
+  color: #ffff;
+  border: #ffffff 1px solid;
+  border-radius: 0.5rem;
+  font-family: "Poppins";
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.chest-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.chest-form input {
+  width: 100%;
+  height: 1.3rem;
+  border: #000 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1em;
+  font-family: "Poppins";
+}
+
+.chest-form button {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #ffff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  cursor: pointer;
+}

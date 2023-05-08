@@ -1,0 +1,76 @@
+.egypt-page {
+  min-height: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(/assets/image/background-mesir.jpg) rgba(0, 0, 0, 0.584);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #ffff;
+}
+
+.egypt-main {
+  /* background-color: #ffff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.egypt-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.egypt-paragraph {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.egpyt-options {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: transparent;
+  width: 80px;
+  height: 2rem;
+  color: #ffff;
+  border: #ffffff 1px solid;
+  border-radius: 0.5rem;
+  font-family: "Poppins";
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.egypt-clue {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+}

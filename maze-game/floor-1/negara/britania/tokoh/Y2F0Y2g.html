@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasure Key</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/key.style.css" />
+  </head>
+  <body class="key-page">
+    <!-- from to copy the key -->
+    <div class="key-main">
+      <h1 class="key-title">Treasure Key</h1>
+      <p class="key-clue">
+        Copy the key below and save it. You will need it later.
+      </p>
+      <form class="key-form" autocomplete="off">
+        <input
+          type="text"
+          name="answer"
+          class="key-form"
+          value="Y2F0Y2g="
+          readonly
+        />
+        <button class="chest-form">Copy</button>
+      </form>
+      <button onclick="return window.location.href='/floor-1/mitologi'">
+        Next
+      </button>
+    </div>
+
+    <script>
+      // copy the key to clipboard when the button is clicked
+      const copyButton = document.querySelector("button");
+      const input = document.querySelector("input");
+
+      copyButton.addEventListener("click", () => {
+        input.select();
+        input.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        alert("Key copied to clipboard!");
+      });
+    </script>
+  </body>
+</html>
