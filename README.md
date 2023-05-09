@@ -31,7 +31,11 @@ df [options]
 Opsi yang bisa digunakan adalah
 - -h : Untuk menampilkan dalam format yang mudah dibaca oleh manusia
 
+![STORAGE](screenshots/storage.gif)
+
 Ada beberapa tools yang bisa memudahkan dalam monitoring resources, salah satunya adalah `htop`. Namun program tersebut perlu diinstal terlebih dahulu. Untuk lebih jelas, silahkan baca dokumennya [disini](https://htop.dev/downloads.html).
+
+![HTOP](screenshots/monitor program.gif)
 ## Manajemen Program
 
 ### Monitoring program
