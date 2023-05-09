@@ -35,7 +35,7 @@ Opsi yang bisa digunakan adalah
 
 Ada beberapa tools yang bisa memudahkan dalam monitoring resources, salah satunya adalah `htop`. Namun program tersebut perlu diinstal terlebih dahulu. Untuk lebih jelas, silahkan baca dokumennya [disini](https://htop.dev/downloads.html).
 
-![HTOP](screenshots/monitor program.gif)
+![HTOP](screenshots/monitor%20program.gif)
 ## Manajemen Program
 
 ### Monitoring program
