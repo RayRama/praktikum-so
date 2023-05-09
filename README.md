@@ -11,7 +11,7 @@ Opsi yang bisa digunakan adalah
 - -mega : Untuk menampilkan dalam format Megabyte
 dll.
 
-[RAM](screenshots/ram.gif)
+![RAM](screenshots/ram.gif)
 
 ### CPU
 Untuk monitoring penggunaan CPU, bisa menggunakan perintah
