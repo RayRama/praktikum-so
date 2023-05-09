@@ -48,6 +48,8 @@ kill <PID>
 ```
 Catatan: PID adalah nomor proses dari program yang bisa kita lihat menggunakan perintah `top` atau `htop`.
 
+![KILL](screenshots/kill.gif)
+
 ### Otomasi perintah dengan shell script
 Misal, kita ingin otomasi pembuatan folder dan file di dalamnya, maka perintah yang digunakan adalah `mkdir`, `cd`, dan `touch`.
 
@@ -89,6 +91,8 @@ atau
 bash namafile.sh
 ```
 
+![OTOMASI](screenshots/otomasi.gif)
+
 ### Penjadwalan menggunakan cron
 BELUM ADA
 ## Manajemen Network
@@ -110,8 +114,12 @@ ssh <account>@<ip-server> -p <port>
 ```
 Umumnya, port yang digunakan ssh adalah `22`. Namun jika ingin menggunakan port lain, bisa mengikuti cara di atas.
 
+![SSH](screenshots/ssh.gif)
+
 ### Monitoring program yang menggunakan network
 Untuk memonitoring program yang menggunakan internet atau network, bisa menggunakan perintah `nethogs`. Namun, perlu diketahui bahwa perintah tersebut tidak tersedia secara default. Oleh karena itu anda perlu menginstallnya terlebih dahulu.
+
+![NETHOGS](screenshots/monitor%20network.gif)
 
 ### Mengoperasikan HTTP Client
 
@@ -144,6 +152,8 @@ output:
 }
 ```
 
+![CURL](screenshots/curl.gif)
+
 #### wget
 ```bash
 wget <URL>
@@ -154,6 +164,9 @@ wget https://file-examples.com/wp-content/uploads/2017/10/file-sample_150kB.pdf
 output:
 wget ini fungsinya untuk mendownload file
 ```
+
+![WGET](screenshots/wget.gif)
+
 ## Manajemen File dan Folder
 
 ### CRUD file dan folder
