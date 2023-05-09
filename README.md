@@ -8,7 +8,7 @@ free [options]
 ```
 Opsi yang bisa digunakan adalah
 - -h : Untuk menampilkan dalam format yang mudah dibaca oleh manusia
-- -mega : Untuk menampilkan dalam format Megabyte
+- --mega : Untuk menampilkan dalam format Megabyte
 dll.
 
 ![RAM](screenshots/ram.gif)
