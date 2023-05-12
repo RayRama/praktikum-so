@@ -94,7 +94,23 @@ bash namafile.sh
 ![OTOMASI](screenshots/otomasi.gif)
 
 ### Penjadwalan menggunakan cron
-BELUM ADA
+Untuk melakukan penjadwalan menggunakan cron, bisa menggunakan perintah `crontab`. Bagi beberapa distro linux, perintah ini terkadang tidak ada secara default. Jadi perlu untuk menginstallnya terlebih dahulu. Untuk cara penggunaanya cukup sederhana yaitu seperti ini
+
+```bash
+crontab -e
+
+Kemudian akan muncul pilihan untuk memilih text editor apa yang akan digunakan. Jika sudah memilih, masukan perintah cron nya. Berikut adalah contohnya
+* * * * * date > /root/Documents/filesample
+– – – – –
+| | | | |
+| | | | +—– day of week (0 – 7) (Sunday=0)
+| | | +——- month (1 – 12)
+| | +——— day of month (1 – 31)
+| +———– hour (0 – 23)
++————- min (0 – 59)
+```
+Catatan: Untuk perintah bisa disesuaikan dengan kebutuhan masing-masing dan environment dari sistem operasi yang digunakan. Untuk lebih jelas tentang perintah `crontab` bisa membaca artikel [berikut](https://codepolitan.com/blog/memahami-perintah-perintah-crontab-paling-lengkap-59f69445130a0)
+
 ## Manajemen Network
 
 ### Akses server menggunakan SSH
