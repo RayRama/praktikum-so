@@ -225,7 +225,7 @@ grep [options] pattern [file ...]
 
 Agar lebih jelas bisa membaca artikel-artikel berikut
 - [find](https://www.linuxid.net/25319/tutorial-perintah-find-untuk-mencari-file-di-linux-terminal/)
-- [grep]([https://www.linuxid.net/25319/tutorial-perintah-find-untuk-mencari-file-di-linux-terminal/](https://www.linuxid.net/24811/memahami-penggunaan-perintah-grep-di-linux-terminal/))
+- [grep](https://www.linuxid.net/24811/memahami-penggunaan-perintah-grep-di-linux-terminal/)
 ## Kompresi Data
 Ada beberapa perintah untuk melakukan kompresi data, namun yang akan penulis bahas hanya 2 yaitu `tar` dan `gzip`. Berikut adalah cara penggunaanya
 
